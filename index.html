@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <!-- Menú -->
+    <header class="cabecera">
+        <div class="humburger fade-in">
+            <i class="fa-solid fa-bars-staggered"  data-visible="true"></i>
+            <i class="fa-solid fa-xmark"  data-visible="false"></i>
+        </div>
+        <nav class="navegacion">
+            <!-- <div class="cabecera__caja"> -->
+                <img class="cabecera__logo" src="./imagenes/dalia.png" alt="Logo">
+                <h1 class="cabecera__titulo">Alura Latam</h1>
+            <!-- </div> -->
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto" class="btn">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <!-- Sección de Presentación -->
+        <section class="presentacion">
+            <div class="capa-gradiente"></div>
+            <div class="contenedor-detalles">
+                <div class="presentacion__tarjeta">
+                    <div class="presentacion__contenedor">
+                        <h2 class="presentacion__titulo">Hola, mi nombre es Dalia</h2>
+                        <h5>Desarrollo de Diseño Web</h5>
+                        <h6>Especialista en Fron-end</h6>
+                        <!-- <p class="presentacion__subtitulo">Soy formada en... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p> -->
+                    </div>
+                    <div class="presentacion__imagen">
+                        <img src="./imagenes/yo.jpeg" alt="Retrato de Dalia">
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- Sección sobre mí -->
+        <section class="sobre-mi" id="sobre-mi">
+            <div class="contenedor-mi">
+                <h2 class="sobre-mi__titulo">Sobre mí</h2>
+                <p class="sobre-mi__texto">
+                Soy una desarrolladora web front-end en formación, cursando actualmente en Alura LATAM. Mi objetivo es crear experiencias digitales excepcionales. Además de mi pasión por la tecnología, disfruto de la vida sencilla: pasar tiempo con mi familia, ver películas y explorar nuevos lugares. Estoy emocionada por seguir creciendo en este campo y contribuir a proyectos innovadores.
+                </p>
+                <p class="sobre-mi__texto">
+                Estoy adquiriendo sólidas habilidades en HTML, CSS y JavaScript, con un enfoque especial en frameworks como React. Tengo una gran curiosidad por aprender y aplicar nuevas herramientas y técnicas de desarrollo web.
+                </p>
+                <!-- Firma opcional -->
+                <!-- <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma"> -->
+            </div>
+        </section>
+
+            <!-- Sección de Aficiones -->
+        <section class="aficiones" id="aficiones">
+            <div class="aficiones__contenedor">
+                <h2 class="aficiones__titulo">Aficiones</h2>
+                <ul class="aficiones__lista">
+                    </li>
+                    <li class="aficiones__elemento">
+                        <i class="fa-solid fa-music fa-beat fa-2xl" style="color: #B197FC;"></i>
+                        <p class="aficiones__nombre">Oír música</p>
+                    </li>
+                    <li class="aficiones__elemento">
+                        <i class="fa-solid fa-video fa-beat fa-2xl" style="color: #B197FC;"></i>
+                        <p class="aficiones__nombre">Ver series</p>
+                    </li>
+                    <li class="aficiones__elemento">
+                        <i class="fa-solid fa-utensils fa-beat fa-2xl" style="color: #B197FC;"></i>
+                        <p class="aficiones__nombre">Cocinar</p>
+                    </li>
+                    <li class="aficiones__elemento">
+                        <i class="fa-solid fa-image fa-beat fa-2xl" style="color: #B197FC;"></i>
+                        <p class="aficiones__nombre">Tomar fotos</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+            <!-- Sección de Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h2 class="habilidades__titulo">Habilidades</h2>
+            <div class="habilidades__uso">
+                <div class="habilidades__caja uno">
+                    <img src="./imagenes/html.svg" class="icono-html">
+                    <!-- <h6>HTML5</h6> -->
+                </div>
+                <div class="habilidades__caja dos">
+                    <img src="./imagenes/css.svg" alt="">
+                    <!-- <h6>CSS3</h6> -->
+                </div>
+                <div class="habilidades__caja tres">
+                    <img src="./imagenes/javascript.svg" alt="">
+                    <!-- <h6>JavaScript</h6> -->
+                </div> 
+            </div>
+            <div class="idiomas">
+                <h4 class="idiomas__titulo">Idiomas</h4>
+                    <div class="idiomas__lista">
+                        <div class="idiamos__caja uno">
+                            <img src="" alt="">
+                            <h6>ESPAÑOL</h6>
+                        </div>
+                        <div class="idiamos__caja dos">
+                            <img src="" alt="">
+                            <h6>INGLÉS</h6>
+                        </div>                        
+                    </div>
+            </div>
+        </section>
+
+            <!-- Sección de Formación académica -->
+        <section class="formacion" id="formacion">
+            <h2 class="formacion__titulo">Formación académica</h2>
+            <ul class="formacion__lista">
+                <li class="formacion__elemento">
+                    <img class="formacion__icono" src="./imagenes/alura-logo.svg" alt="Alura">
+                    <div>
+                        <h3 class="formacion__nombre">Alura LATAM</h3>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+            <!-- Sección de Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <div class="contenedor-portada">
+                <!-- <div class="imagen-titulo"> <img src="/imagenes/colores.jpg" alt="" class="imagen-fondo"></div> -->
+                <div class="degradado"></div>
+                <div class="container-detalles">
+                    <div class="detalles">
+                        <div class="proyectos__titulo">
+                            <p>MIS PROYECTOS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portafolio">
+                <a href="https://dalia-isa.github.io/Encriptador-de-Texto/" class="portafolio-uno" target="_blank"><img src="./imagenes/endriptador.png" alt="Proyecto Encriptador de Textos"></a>
+                <a href="https://dalia-isa.github.io/juego-secreto/" class="portafolio-uno" target="_blank"><img src="./imagenes/secreto.png" alt="Adivina el Número Secreto"></a>
+            </div>
+        </section>
+
+            <!-- Sección de Contacto -->
+        <section class="contacto" id="contacto">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <form class="contacto__formulario">
+                <input class="contacto__campo" type="text" placeholder="Nombre">
+                <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+                <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+                <button class="contacto__boton" type="submit">Enviar</button>
+            </form>
+
+            <div class="presentacion__contacto">
+                <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #B197FC;"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #B197FC;"></i></a>
+                <a href="https://github.com" target="_blank"> <i class="fa-brands fa-square-github fa-2xl" style="color: #B197FC;"></i></a>
+                <!-- <a href="">Currículo <img src="assets/arrow.png" alt="Flecha"></a> -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-info ">
+            <div class="scroll-up fade-in">
+                <a href="#"><i class="fas fa-angle-up fade-in"></i></a>
+                <h6>VOLVER ARRIBA</h6>
+            </div>
+        
+            <p >● &copy;   2024 <a class="usuario fade-in" href="https://www.instagram.com" target="_blank">
+                IsabelDalia.Hrz.M. 
+            </a>.Todos los derechos reservados ● </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
